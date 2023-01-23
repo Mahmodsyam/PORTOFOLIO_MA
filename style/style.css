@@ -1050,7 +1050,10 @@ select {
     .main-Content .container .row .col:nth-child(1) h1 {
         font-size: 30px;
     }
-
+    /*  Filter*/
+    .Portofolio .container .cont .box-list div {
+        width: 330px;
+    }
     /* About sec */
     .About {
         height: 100vh;
