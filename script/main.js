@@ -66,3 +66,9 @@ ScrollReveal().reveal('.topSCroll',{
 $(document).ready(function () {
     var mixer = mixitup(".box-list")
 })
+
+let Scroll_Botoom = document.querySelector(".main-Content .container .row .scroll")
+Scroll_Botoom.addEventListener("click", () => {
+  window.scrollTo(0 , 10000);
+
+})
